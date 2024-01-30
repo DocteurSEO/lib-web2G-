@@ -1,0 +1,33 @@
+main{
+    padding: 30px;
+    display: grid;
+    gap:30px;
+    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+article{
+    max-width: 300px;
+    padding: 19px;
+    box-shadow: 1px 4px 7px #ded8d8;
+    text-align: center;
+    position: relative;
+}
+
+.del{
+    background-color: rgb(244, 244, 244);
+    padding: 7px;
+    border-radius: 0px 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: x-large;
+    box-shadow: -1px 2px 2px 0px #d4d4d4;
+    transition: all 0.3s ease-in-out;
+}
+
+.del:hover{
+    background-color: #ff0000;
+    color: white;
+}
